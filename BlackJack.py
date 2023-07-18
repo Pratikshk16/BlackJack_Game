@@ -114,12 +114,10 @@ def player_busts(player, dealer, chips):
 def player_wins(player, dealer, chips):
     print("Player wins ")
     chips.win_bet()
-    chips.total()
 
 def dealer_busts(player, dealer, chips):
     print("Bust Dealer")
     chips.win_bet()
-    chips.total()
     
 def dealer_wins(player, dealer, chips):
     print("Dealer Wins")
